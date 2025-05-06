@@ -1,0 +1,14 @@
+p::after{
+    content: '[Link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(80, 62, 62);
+}
+
+p::before{
+    content: '>>';
+}
+
+.v::before{
+    content: '<<';
+}
